@@ -17,6 +17,9 @@ export const Contents = (props) => {
 
 const SImg = styled.img`
   width: 150px;
+  @media screen and (max-width: 767px) {
+    width: 80px;
+  }
 `;
 
 const SItem = styled.div`

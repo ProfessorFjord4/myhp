@@ -8,6 +8,9 @@ export default props => {
       <a className="menu-item" href="https://professorfjord4.github.io/myhp">
         Home
       </a>
+      <a className="menu-item" href="http://musclepowerapp.pythonanywhere.com/">
+        走れ三日坊主
+      </a>
       <a className="menu-item" target="_blank" href="https://twitter.com/professorfjord4">
         Twitter
       </a>

@@ -5,6 +5,7 @@ import pic_Twi from "./images/twitter.PNG";
 import pic_note from "./images/note.PNG";
 import pic_htn from "./images/hatena.PNG";
 import pic_ld from "./images/livedoor.PNG";
+import pic_bouzu from "./images/mikkabouzu.PNG";
 import { OpeningShutter } from "./components/OpeningShutter";
 import Sidebar from "./components/Sidebar";
 
@@ -19,6 +20,12 @@ export const App = () => {
         <SMainTitle>Mahiro Irie</SMainTitle>
         <SMainText>Mahiro Irieのホームページです。</SMainText>
       </header>
+
+      <SContents>
+        <h2>Product</h2>
+        <p>制作したものです。</p>
+        <Contents title="走れ三日坊主" text="enPiTで作成した、運動の三日坊主を解消するためのアプリケーションです。" image={pic_bouzu} link="http://musclepowerapp.pythonanywhere.com/"/>
+      </SContents>
 
       <SContents>
         <h2>SNS</h2>
